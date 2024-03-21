@@ -10,15 +10,15 @@ public class СhangeText : MonoBehaviour
 
     private void Start()
     {
-        Sequence sequence = DOTween.Sequence().SetDelay(_delay);
+        string replacingText = "Я заменил этот текст";
+        string additionText = "\nЭто дополнение к тексту";
+        string hackingText = "Я взломал этот текст";
 
         ScrambleMode scrambleMode = ScrambleMode.All;
 
         bool richTextEnabled = true;
 
-        string replacingText = "Я заменил этот текст";
-        string additionText = "\nЭто дополнение к тексту";
-        string hackingText = "Я взломал этот текст";
+        Sequence sequence = DOTween.Sequence().SetDelay(_delay);
 
         sequence.Append(_text.DOText(replacingText, _duration));
         sequence.Append(_text.DOText(additionText, _duration).SetRelative());
