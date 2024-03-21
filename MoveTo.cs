@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class MoveTo : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [SerializeField] private Vector3 _targetPosition;
     [SerializeField] private float _duration;
