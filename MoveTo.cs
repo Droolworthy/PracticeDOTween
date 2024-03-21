@@ -9,6 +9,6 @@ public class MoveTo : MonoBehaviour
 
     private void Start()
     {
-        transform.DOMove(_targetPosition, _durationMove).SetDelay(_delay);
+        transform.DOMove(_targetPosition, _duration).SetDelay(_delay);
     }
 }
