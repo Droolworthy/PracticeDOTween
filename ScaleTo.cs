@@ -4,11 +4,11 @@ using DG.Tweening;
 public class ScaleTo : MonoBehaviour
 {
     [SerializeField] private float _scale;
-    [SerializeField] private float _durationScale;
+    [SerializeField] private float _duration;
     [SerializeField] private float _delay;
 
     private void Start()
     {
-        transform.DOScale(_scale, _durationScale).SetDelay(_delay);
+        transform.DOScale(_scale, _duration).SetDelay(_delay);
     }
 }
