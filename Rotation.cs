@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using DG.Tweening;
 
-public class RotateTo : MonoBehaviour
+public class Rotation : MonoBehaviour
 {
     [SerializeField] private Vector3 _rotate;
     [SerializeField] private float _duration;
