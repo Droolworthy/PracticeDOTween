@@ -2,7 +2,7 @@
 using DG.Tweening;
 
 [RequireComponent(typeof(Renderer))]
-public class СolorСhange : MonoBehaviour
+public class ColorChanger : MonoBehaviour
 {
     [SerializeField] private Color _color;
     [SerializeField] private float _duration;
