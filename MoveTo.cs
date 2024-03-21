@@ -4,7 +4,7 @@ using DG.Tweening;
 public class MoveTo : MonoBehaviour
 {
     [SerializeField] private Vector3 _targetPosition;
-    [SerializeField] private float _durationMove;
+    [SerializeField] private float _duration;
     [SerializeField] private float _delay;
 
     private void Start()
