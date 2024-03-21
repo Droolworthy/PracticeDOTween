@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class TextChange : MonoBehaviour
+public class TextChanger : MonoBehaviour
 {
     [SerializeField] private Text _text;
     [SerializeField] private float _delay;
